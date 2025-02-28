@@ -2,7 +2,7 @@ import Web3 from "web3";
 import contractABI from "./contractABI.json"; // Your contract's ABI
 
 const web3 = new Web3(Web3.givenProvider || "https://bsc-dataseed.binance.org/");
-const contractAddress = "0x8c1bF9bBE1Cd98608632E65f0267a666d53fFa72";
+const contractAddress = ""; // your metamask address
 
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
